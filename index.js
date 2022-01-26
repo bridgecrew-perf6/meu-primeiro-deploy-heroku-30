@@ -20,3 +20,4 @@ app.listen(PORT, () => console.log(`rodando liso na porta ${PORT}`))
 // git commit -m "make it better"
 // git push heroku master
 // https://meu-1st-deployzin.herokuapp.com
+// heroku config:set TEXT='Is a LIIIVE!!!'
