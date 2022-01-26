@@ -11,6 +11,7 @@ app.get('/', (req, res) => {
 
 app.listen(PORT, () => console.log(`rodando liso na porta ${PORT}`))
 
+// BabySteps:
 // heroku login
 // heroku create meu-1st-deployzin
 // heroku apps
