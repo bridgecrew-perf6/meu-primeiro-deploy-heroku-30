@@ -3,9 +3,10 @@ const express = require('express');
 const app = express();
 
 const PORT = process.env.PORT || 3002
+const TEXT = process.env.TEXT
 
 app.get('/', (req, res) => {
-  res.send('Is a LIIIVE!!!');
+  res.send(TEXT);
 });
 
 app.listen(PORT, () => console.log(`rodando liso na porta ${PORT}`))
@@ -18,4 +19,4 @@ app.listen(PORT, () => console.log(`rodando liso na porta ${PORT}`))
 // git add .
 // git commit -m "make it better"
 // git push heroku master
-//  https://meu-1st-deployzin.herokuapp.com
+// https://meu-1st-deployzin.herokuapp.com
